@@ -1,0 +1,54 @@
+#main #form {
+position: absolute;
+width: 250px;
+height: 250px;
+margin-top: 120px;
+margin-left: 375px;
+background: linear-gradient(to top, #663399, #330066);
+text-align: center;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+padding-top: 10px;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #form #classlbl {
+position: absolute;
+width: 250px;
+height: 30px;
+line-height: 30px;
+}
+
+#main #form #classin {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 40px;
+line-height: 30px;
+}
+
+#main #form #studylbl {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 100px;
+line-height: 30px;
+}
+
+#main #form #studyin {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 140px;
+line-height: 30px;
+}
+
+#main #form #submit {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 200px;
+line-height: 30px;
+}

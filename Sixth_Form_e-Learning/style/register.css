@@ -1,0 +1,45 @@
+#main #register {
+position: absolute;
+width: 250px;
+height: 140px;
+margin-top: 120px;
+margin-left: 375px;
+background: linear-gradient(to bottom, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+}
+
+#main #register #regtitle {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 10px;
+font-size: medium;
+line-height: 30px;
+}
+
+#main #register #email {
+position: absolute;
+width: 200px;
+height: 30px;
+margin-top: 50px;
+margin-left: 25px;
+}
+
+#main #register #send {
+position: absolute;
+width: 100px;
+height: 30px;
+margin-top: 90px;
+margin-left: 75px;
+}
+
+#button-register {
+background: linear-gradient(to bottom, #CC99FF, #663399);
+width: 100px;
+height: 30px;
+border-radius: 10px;
+font-family: Segoe UI Semibold;
+font-weight: bold;
+color: #330066;
+}

@@ -1,0 +1,87 @@
+#main #logo {
+position: absolute;
+width: 400px;
+height: 160px;
+margin-top: 60px;
+margin-left: 10px;
+background: url("images/logo.png");
+}
+
+#main #login {
+position: absolute;
+width: 250px;
+height: 170px;
+margin-top: 60px;
+margin-left: 740px;
+background: linear-gradient(to bottom, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+text-align: center;
+}
+
+#main #login #title {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 10px;
+font-size: medium;
+line-height: 30px;
+}
+
+#main #login #email {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 50px;
+}
+
+#main #login #password {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 90px;
+}
+
+#main #login #buttons {
+position: absolute;
+width: 200px;
+height: 30px;
+margin-top: 130px;
+margin-left: 25px;
+font-size: small;
+line-height: 30px;
+text-align: left;
+}
+
+#main #login #buttons #remember {
+position: absolute;
+width: 140px;
+height: 30px;
+line-height: 30px;
+}
+
+#main #login #buttons #submit {
+position: absolute;
+width: 60px;
+height: 30px;
+margin-left: 140px;
+line-height: 30px;
+}
+
+#main #login #forgot {
+position: absolute;
+width: 150px;
+height: 30px;
+margin-top: 170px;
+margin-left: 50px;
+}
+
+#button-login {
+background: linear-gradient(to bottom, #CC99FF, #663399);
+width: 60px;
+height: 30px;
+border-radius: 10px;
+font-family: Segoe UI Semibold;
+font-weight: bold;
+color: #330066;
+}

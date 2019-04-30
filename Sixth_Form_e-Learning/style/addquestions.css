@@ -1,0 +1,95 @@
+#main #questions {
+position: absolute;
+width: 350px;
+margin-top: 120px;
+margin-left: 325px;
+text-align: center;
+font-size: medium;
+line-height: 450px;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #questions #question {
+position: absolute;
+width: 350px;
+height: 440px;
+border-radius: 10px;
+line-height: 20px;
+background: linear-gradient(to top, #663399, #330066);
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #questions #question #q_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 10px;
+}
+
+#main #questions #question #q_in {
+position: absolute;
+width: 350px;
+height: 50px;
+margin-top: 50px;
+}
+
+#main #questions #question #a1_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 120px;
+}
+
+#main #questions #question #a1_in {
+position: absolute;
+width: 350px;
+height: 50px;
+margin-top: 160px;
+}
+
+#main #questions #question #a2_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 230px;
+}
+
+#main #questions #question #a2_in {
+position: absolute;
+width: 350px;
+height: 50px;
+margin-top: 270px;
+}
+
+#main #questions #question #a3_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 340px;
+}
+
+#main #questions #question #a3_in {
+position: absolute;
+width: 350px;
+height: 50px;
+margin-top: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

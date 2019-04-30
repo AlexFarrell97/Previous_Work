@@ -1,0 +1,64 @@
+#main #form {
+position: absolute;
+width: 300px;
+height: 320px;
+margin-top: 120px;
+margin-left: 350px;
+background: linear-gradient(to top, #663399, #330066);
+text-align: center;
+font-size: medium;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #form #class_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 10px;
+}
+
+#main #form #class_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 50px;
+}
+
+#main #form #test_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 100px;
+}
+
+#main #form #test_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 140px;
+}
+
+#main #form #date_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 190px;
+}
+
+#main #form #date_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 230px;
+}
+
+#main #form #submit {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 280px;
+}

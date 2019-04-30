@@ -1,0 +1,79 @@
+#main #form {
+position: absolute;
+width: 300px;
+height: 410px;
+margin-top: 60px;
+margin-left: 350px;
+background: linear-gradient(to top, #663399, #330066);
+text-align: center;
+font-size: medium;
+color: #E0E0E0;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #form #forename_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 10px;
+}
+
+#main #form #forename_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 50px;
+}
+
+#main #form #surname_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 100px;
+}
+
+#main #form #surname_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 140px;
+}
+
+#main #form #DOB_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 190px;
+}
+
+#main #form #DOB_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 230px;
+}
+
+#main #form #study_lbl {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 280px;
+}
+
+#main #form #study_in {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 320px;
+}
+
+#main #form #submit {
+position: absolute;
+width: 300px;
+height: 30px;
+margin-top: 370px;
+}

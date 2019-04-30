@@ -1,0 +1,115 @@
+#main #profile {
+position: absolute;
+width: 250px;
+height: 250px;
+margin-top: 60px;
+margin-left: 740px;
+background: linear-gradient(to bottom, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+}
+
+#main #profile #pic {
+position: absolute;
+width: 100px;
+height: 120px;
+margin-top: 10px;
+margin-left: 140px;
+}
+
+#main #profile #name {
+position: absolute;
+width: 120px;
+height: 50px;
+margin-top: 10px;
+margin-left: 10px;
+font-size: medium;
+word-wrap: break-word;
+line-height: 120%;
+}
+
+#main #profile #DOB {
+position: absolute;
+width: 120px;
+height: 50px;
+margin-top: 60px;
+margin-left: 10px;
+font-size: medium;
+word-wrap: break-word;
+line-height: 120%;
+}
+
+#main #profile #joined {
+position: absolute;
+width: 120px;
+height: 50px;
+margin-top: 110px;
+margin-left: 10px;
+font-size: medium;
+word-wrap: break-word;
+line-height: 120%;
+}
+
+#main #profile #study {
+position: absolute;
+width: 120px;
+height: 50px;
+margin-top: 160px;
+margin-left: 10px;
+font-size: medium;
+word-wrap: break-word;
+line-height: 120%;
+}
+
+#main #links {
+position: absolute;
+width: 720px;
+height: 50px;
+margin-top: 60px;
+margin-left: 10px;
+background: linear-gradient(to bottom, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 50px;
+}
+
+#main #profile #edit {
+position: absolute;
+width: 230px;
+height: 30px;
+margin-top: 210px;
+margin-left: 10px;
+}
+
+#button-edit {
+background: linear-gradient(to bottom, #CC99FF, #663399);
+width: 230px;
+height: 30px;
+border-radius: 5px;
+font-family: Segoe UI Semibold;
+font-weight: bold;
+color: #330066;
+}
+
+#main #profile #changepass {
+position: absolute;
+width: 100px;
+height: 50px;
+margin-top: 140px;
+margin-left: 140px;
+}
+
+#button-changepass {
+background: linear-gradient(to bottom, #CC99FF, #663399);
+width: 100px;
+height: 50px;
+border-radius: 5px;
+font-family: Segoe UI Semibold;
+font-weight: bold;
+white-space: normal;
+color: #330066;
+}
+
+img {
+border-radius: 0px 5px 0px 0px;
+}

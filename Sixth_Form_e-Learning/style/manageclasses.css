@@ -1,0 +1,53 @@
+#addclass {
+position: absolute;
+width: 200px;
+height: 200px;
+margin-top: 120px;
+margin-left: 190px;
+background: linear-gradient(to top, #663399, #330066);
+line-height: 200px;
+text-align: center;
+font-size: medium;
+color: #E0E0E0;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#addstudents {
+position: absolute;
+width: 200px;
+height: 200px;
+margin-top: 120px;
+margin-left: 400px;
+background: linear-gradient(to top, #663399, #330066);
+line-height: 200px;
+text-align: center;
+font-size: medium;
+color: #E0E0E0;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#stregister {
+position: absolute;
+width: 200px;
+height: 200px;
+margin-top: 120px;
+margin-left: 610px;
+background: linear-gradient(to top, #663399, #330066);
+line-height: 200px;
+text-align: center;
+font-size: medium;
+color: #E0E0E0;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}

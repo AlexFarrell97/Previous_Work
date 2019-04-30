@@ -1,0 +1,253 @@
+body {
+padding: 0;
+margin: 0;
+font-family: Segoe UI Semibold;
+font-weight: bold;
+font-size: x-large;
+color: #E0E0E0;
+background: #808080;
+}
+
+#main {
+margin-left: auto;
+margin-right: auto;
+width: 1000px;
+
+-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+
+
+#main #banner-top {
+position: fixed;
+height: 50px;
+width: 1000px;
+background: linear-gradient(to top, #663399, #330066);
+line-height: 50px;
+border-radius: 0px 0px 10px 10px;
+box-shadow: 5px 5px 10px #000000;
+z-index: 100;
+}
+
+#main #banner-top #home {
+position: absolute;
+height: 40px;
+width: 40px;
+margin-left: 5px;
+margin-top: 5px;
+background: url(images/home.png);
+border-radius: 0px 0px 0px 5px;
+}
+
+#main #banner-top #time {
+position: absolute;
+height: 40px;
+width: 150px;
+margin-left: 425px;
+margin-top: 5px;
+}
+
+#main #banner-top #logout {
+position: absolute;
+height: 40px;
+width: 150px;
+margin-left: 845px;
+margin-top: 5px;
+background: url("images/logout.png");
+border-radius: 0px 0px 5px 0px;
+}
+
+#main #banner-top #logout:hover {
+position: absolute;
+height: 40px;
+width: 150px;
+margin-left: 845px;
+margin-top: 5px;
+background: url("images/logouthover.png");
+border-radius: 0px 0px 5px 0px;
+}
+
+#main #hyperlinks {
+position: fixed;
+height: 50px;
+width: 980px;
+margin-left: 10px;
+margin-top: 60px;
+background: linear-gradient(to bottom, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+font-size: medium;
+text-align: center;
+color: #E0E0E0;
+z-index: 100;
+}
+
+/* student hyperlinks */
+#main #hyperlinks #tests {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 15px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#main #hyperlinks #mytasks {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 255px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#main #hyperlinks #history {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 495px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+/* teacher hyperlinks */
+#main #hyperlinks #settest {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 15px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#main #hyperlinks #testmanager {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 255px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#main #hyperlinks #classes {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 495px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#main #hyperlinks #progress {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 735px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+/* admin hyperlinks */
+#main #hyperlinks #prmanage {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 15px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#main #hyperlinks #teregister {
+position: absolute;
+width: 230px;
+height: 40px;
+margin-top: 5px;
+margin-left: 255px;
+line-height: 40px;
+color: #E0E0E0;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;
+border-color: #808080;
+border-width: 2px;
+border-style: dotted;
+border-radius: 20px;
+}
+
+#textbox {
+outline: 0;
+height: 30px;
+width: 200px;
+background: #E0E0E0;
+font-family: Century Gothic;
+font-weight: bold;
+border-radius: 5px;
+}

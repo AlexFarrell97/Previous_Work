@@ -1,0 +1,27 @@
+#main #manager {
+position: absolute;
+width: 355px;
+height: 190px;
+margin-left: 10px;
+margin-top: 120px;
+background: linear-gradient(to top, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 190px;
+font-size: large;
+color: #E0E0E0;
+}
+
+#main #addteacher {
+position: absolute;
+width: 355px;
+height: 190px;
+margin-left: 375px;
+margin-top: 120px;
+background: linear-gradient(to top, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 190px;
+font-size: large;
+color: #E0E0E0;
+}

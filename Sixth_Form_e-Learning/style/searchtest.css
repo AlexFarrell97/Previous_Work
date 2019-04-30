@@ -1,0 +1,108 @@
+#main #form {
+position: absolute;
+width: 250px;
+height: 140px;
+margin-top: 120px;
+margin-left: 375px;
+background: linear-gradient(to top, #663399, #330066);
+text-align: center;
+font-size: medium;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #form #test_name_lbl {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 10px;
+}
+
+#main #form #test_name_in {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 50px;
+}
+
+#main #form #submit {
+position: absolute;
+width: 250px;
+height: 30px;
+margin-top: 100px;
+}
+
+#main #no {
+position: absolute;
+width: 250px;
+height: 50px;
+margin-top: 120px;
+margin-left: 375px;
+background: linear-gradient(to top, #663399, #330066);
+text-align: center;
+font-size: medium;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #form2 {
+position: absolute;
+width: 600px;
+margin-top: 120px;
+margin-left: 200px;
+background: linear-gradient(to top, #663399, #330066);
+padding: 10px;
+text-align: center;
+line-height: 10px;
+font-size: medium;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+table {
+margin: 0 auto;
+width: 550px;
+}
+
+table, th, td {
+border: 1px solid #E0E0E0;
+border-collapse: collapse;
+}
+
+th, td {
+padding: 5px;
+text-align: center;
+}
+
+#main #form2 #button1 {
+position: absolute;
+width: 80px;
+margin-left: 500px;
+}
+
+#main #button2 {
+position: absolute;
+width: 150px;
+height: 50px;
+background: linear-gradient(to top, #663399, #330066);
+margin-left: 30px;
+margin-top: 120px;
+text-align: center;
+font-size: large;
+color: #E0E0E0;
+line-height: 50px;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}

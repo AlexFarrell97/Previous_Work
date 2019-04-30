@@ -1,0 +1,84 @@
+#main #form {
+position: absolute;
+width: 350px;
+height: 390px;
+margin-top: 120px;
+margin-left: 325px;
+background: linear-gradient(to top, #663399, #330066);
+text-align: center;
+font-size: medium;
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+-moz-box-sizing: border-box; 
+-webkit-box-sizing: border-box; 
+box-sizing: border-box;
+}
+
+#main #form #test_name_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 10px;
+}
+
+#main #form #test_name_in {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 50px;
+}
+
+#main #form #test_description_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 100px;
+}
+
+#main #form #test_description_in {
+position: absolute;
+width: 350px;
+height: 100px;
+margin-top: 140px;
+}
+
+#main #form #study_lbl {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 260px;
+}
+
+#main #form #study_in {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 300px;
+}
+
+#main #form #submit {
+position: absolute;
+width: 350px;
+height: 30px;
+margin-top: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

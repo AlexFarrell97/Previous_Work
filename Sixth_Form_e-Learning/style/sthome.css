@@ -1,0 +1,99 @@
+#main #recenttest {
+position: absolute;
+width: 150px;
+height: 90px;
+margin-left: 10px;
+margin-top: 120px;
+background: linear-gradient(to top, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+font-size: large;
+}
+
+#main #school {
+position: absolute;
+width: 150px;
+height: 90px;
+margin-left: 10px;
+margin-top: 220px;
+background: linear-gradient(to bottom, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 90px;
+font-size: large;
+}
+
+#main #test {
+position: absolute;
+width: 180px;
+height: 190px;
+margin-left: 170px;
+margin-top: 120px;
+background: linear-gradient(to top, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 190px;
+font-size: large;
+color: #E0E0E0;
+}
+
+#main #test #image {
+position: absolute;
+width: 355px;
+height: 90px;
+background: url("images/test.png");
+}
+
+#main #test #image:hover {
+background: url("images/testhov.png");
+}
+
+#main #tasks {
+position: absolute;
+width: 180px;
+height: 190px;
+margin-left: 360px;
+margin-top: 120px;
+background: linear-gradient(to top, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 190px;
+font-size: large;
+color: #E0E0E0;
+}
+
+#main #tasks #image {
+position: absolute;
+width: 355px;
+height: 90px;
+background: url("images/tasks.png");
+}
+
+#main #tasks #image:hover {
+background: url("images/taskshov.png");
+}
+
+#main #achieve {
+position: absolute;
+width: 180px;
+height: 190px;
+margin-left: 550px;
+margin-top: 120px;
+background: linear-gradient(to top, #663399, #330066);
+border-radius: 10px;
+box-shadow: 5px 5px 10px #000000;
+line-height: 190px;
+font-size: large;
+color: #E0E0E0;
+}
+
+#main #achieve #image {
+position: absolute;
+width: 355px;
+height: 90px;
+background: url("images/achieve.png");
+}
+
+#main #achieve #image:hover {
+background: url("images/achievehov.png");
+}
