@@ -1,0 +1,160 @@
+#body {
+max-width: 600px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 5px;
+}
+
+	#info {
+	color: #9A0F12;
+	line-height: 50px;
+	}
+	
+	#image {
+	position: relative;
+	
+	}
+	
+	#text {
+	position: absolute;
+	width: 280px;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: justify;
+	font-size: small;
+	}
+
+	#video {
+	
+	}
+	
+	#home1 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	color: #9A0F12;
+	float: left;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #9A0F12;
+	background: #FFFFFF;
+	}
+	
+	#home2 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	color: #9A0F12;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #9A0F12;
+	background: #FFFFFF;
+	}
+	
+	#away1 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	color: #9A0F12;
+	float: left;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #9A0F12;
+	background: #FFFFFF;
+	}
+	
+	#away2 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	color: #9A0F12;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #9A0F12;
+	background: #FFFFFF;
+	}
+	
+	#third1 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	color: #9A0F12;
+	float: left;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #9A0F12;
+	background: #FFFFFF;
+	}
+	
+	#third2 {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	color: #9A0F12;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 5px solid #9A0F12;
+	background: #FFFFFF;
+	}
+	
+@media screen and (max-width: 800px) {
+	#home1 {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	#home2 {
+	overflow: visible;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	#away1 {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	#away2 {
+	overflow: visible;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	#third1 {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	#third2 {
+	overflow: visible;
+	margin-left: auto;
+	margin-right: auto;
+	}
+}

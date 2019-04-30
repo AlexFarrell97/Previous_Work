@@ -1,0 +1,126 @@
+#container {
+position: absolute;
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+text-align: center;
+font-family: Sans-serif;
+font-weight: bold;
+color: #FFFFFF;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border: 5px solid #9A0F12;
+}
+
+	#nav {
+	text-align: left;
+	}
+	
+	#hamburger {
+	background: none;
+	position: absolute;
+	margin-top: 0;
+	margin-left: 0;
+	line-height: 45px;
+	padding: 5px 15px 0px 15px;
+	color: #9A0F12;
+	border: 0;
+	font-size: x-large;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 6;
+	}
+	
+	#cross {
+	background: none;
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 0;
+	padding: 5px 15px 0px 15px;
+	color: #FFFFFF;
+	border: 0;
+	font-size: xx-large;
+	line-height: 65px;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	z-index: 6;
+	}
+	
+	#menu {
+	z-index: 5;
+	font-weight: bold;
+	width: 100%;
+	background: #9A0F12;
+	position: absolute;
+	text-align: center;
+	}
+	
+	#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+	}
+	
+	#menu li {
+	display: block;
+	padding:15px 0 15px 0;
+	}
+	
+	#menu li:hover {
+	display: block;
+	background: #FFFFFF;
+	color: #9A0F12;
+	padding: 15px 0 15px 0;
+	}
+	
+	#menu a {
+	text-decoration: none;
+	color: white;
+	}
+	
+	#menu a:hover{
+	text-decoration: none;
+	color: white;
+	}
+
+	#glyphicon-home {
+	color: white;  
+	margin-top: 5px; 
+	margin: 0 auto;
+	}
+
+	#liverbird {
+	position: absolute;
+	z-index: 3;
+	}
+	
+	#canvas {
+	position: relative;
+	z-index: 4;
+	}	
+		
+	#head {
+	position: relative;
+	width: 100%;
+	background: #9A0F12;
+	line-height: 50px;
+	font-size: xx-large;
+	}
+	
+	#foot {
+	position: relative;
+	width: 100%;
+	background: #9A0F12;
+	font-size: xx-large;
+	}
+	
+		#sponsor {
+		margin: 5px;
+		padding: 2px;
+		background: #FFFFFF;
+		cursor: pointer;
+		}

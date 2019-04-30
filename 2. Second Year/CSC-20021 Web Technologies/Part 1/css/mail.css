@@ -1,0 +1,26 @@
+#info {
+color: #9A0F12;
+line-height: 50px;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+border-bottom: 5px solid #9A0F12;
+}
+
+#mailing {
+line-height: 50px;
+color: #9A0F12;
+}
+
+input {
+width: 180px;
+height: 25px;
+padding: 5px;
+font-size: large;
+font-family: Sans-serif;
+font-weight: bold;
+}
+
+#submit {
+font-size: small;
+}

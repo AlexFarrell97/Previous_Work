@@ -1,0 +1,92 @@
+body {
+background: #07042d;
+}
+
+#title {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+height: 50px;
+z-index: 1;
+text-align: center;
+font-family: Sans-Serif;
+font-size: xx-large;
+font-weight: bold;
+color: #FFFFFF;
+}
+
+#scene {
+position: absolute;
+height: 300px;
+width: 100%;
+background-image: url("scene.png");
+background-repeat: repeat-x;
+z-index: 2;
+}
+
+#myCanvas {
+position: absolute;
+margin-top: -50px;
+z-index: 3;
+}
+
+#settings {
+position: absolute;
+width: 50px;
+height: 50px;
+margin-top: -50px;
+z-index: 3;
+cursor: pointer;
+}
+
+#settings-box {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+height: 150px;
+z-index: 4;
+display: none;
+text-align: center;
+font-family: Sans-Serif;
+font-size: small;
+font-weight: bold;
+color: #07042D;
+background: rgba(255, 255, 255, 0.5);
+}
+
+#intensity {
+position: absolute;
+width: 150px;
+height: 100px;
+}
+
+#song {
+position: absolute;
+width: 150px;
+height: 100px;
+margin-left: 150px;
+}
+
+#text {
+position: absolute;
+width: 150px;
+height: 50px;
+line-height: 50px;
+}
+
+#select {
+position: absolute;
+width: 150px;
+height: 50px;
+margin-top: 50px;
+line-height: 50px;
+}
+
+#save {
+position: absolute;
+width: 300px;
+height: 50px;
+margin-top: 100px;
+}

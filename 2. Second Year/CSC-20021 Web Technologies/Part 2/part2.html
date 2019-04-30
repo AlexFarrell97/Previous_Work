@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	
+		<title>CSC-20021: Part 2</title>
+		<link rel="stylesheet" type="text/css" href="part2.css">
+		<script type="text/javascript" src="part2.js" defer></script>
+	
+	</head>
+	
+	<body>
+		<audio autoplay id = "aud">
+			<source src="song1.mp3" type="audio/mpeg">
+		</audio>
+
+			<div id = "title">Winter Wonderland</div>
+			
+			<div id = "scene"></div>
+		
+			<canvas id = "myCanvas">
+				Browser does not support HTML5 canvas
+			</canvas>
+			
+			<div id = "settings">
+				<img src = "settings.png" alt = "Settings" width = "50px" height = "50px" onclick = "settings()">
+			</div>
+			
+			<div id = "settings-box">
+				<div id = "intensity">
+					<div id = "text">Snow Intensity</div>
+					<div id = "select">
+						<select id = "intensity-select">
+							<option value = "50" selected = "selected">Light</option>
+							<option value = "150">Medium</option>
+							<option value = "300">Heavy</option>
+						</select>
+					</div>
+				</div>
+				
+				<div id = "song">
+					<div id = "text">Soundtrack</div>
+					<div id = "select">
+						<select id = "song-select">
+							<option value = "song1" selected = "selected">Song 1</option>
+							<option value = "song2">Song 2</option>
+							<option value = "song3">Song 3</option>
+						</select>
+					</div>
+				</div>
+				<div id = "save">
+					<button onclick = "changeSettings()">Update Settings</button>
+					<button onclick = "closeSettings()">Cancel</button>
+				</div>
+			</div>
+		
+	
+	</body>
+
+</html>

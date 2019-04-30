@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<header>
+	
+		<title>LFC - Mailing List</title>
+		<link rel="stylesheet" type="text/css" href="css/temp.css">
+		<link rel="stylesheet" type="text/css" href="css/mail.css">
+		<script type="text/javascript" src="javascript/cookie.js" defer></script>
+		<script type="text/javascript" src="javascript/canvas.js" defer></script>
+		<script type="text/javascript" src="javascript/menu.js" defer></script>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="javascript/mail.js" defer></script>
+	
+	</header>
+	
+	<body>
+	
+		<div id = "container">
+			<div id = "nav">
+				<button id = "hamburger"> &#9776; </button>
+				<button id = "cross"> &#735 </button>
+				
+				<div id = "menu">
+					<ul>
+						<a href = "index.html"><li>Home</li></a>
+						<a href = "about.html"><li>About</li></a>
+						<a href = "promote.html"><li>Promote</li></a>
+						<a href = "external.html"><li>External Links</li></a>
+					</ul>
+				</div>
+			</div>
+			<img id = "liverbird" src = "images/liverbird.png" alt = "Liverbird" width = "100px" height = "100px">
+			<canvas id = "canvas"></canvas>
+			
+			<div id = "head">
+				LIVERPOOL FC HOME KIT 2016-17
+			</div>
+			
+			<div id = "body">
+			
+				<div id = "info">
+					Please enter your details on the form below to sign up to our mailing list.
+				</div>
+				
+				<form id = "mailing" name = "mailing" action = "mail.php" method = "POST">
+					
+					<input type = "text" name = "forename" placeholder = "-- Forename --" required>
+					<input type = "text" name = "surname" placeholder = "-- Surname --" required>
+					<br>
+					<input type = "date" name = "dob" placeholder = "-- Date of Birth --" required>
+					<input type = "email" name = "email" placeholder = "-- Email Address --" required>
+					<br>
+					<input type = "submit" id = "submit" name = "submit" value = "Continue">
+					<span id = "errors"></span>
+				</form>
+			
+			</div>
+			
+			<div id = "foot">
+			
+				<img id = "sponsor" title = "Premier League" src = "images/prem.png" alt = "Premier League" onclick = "location.href = 'https://www.premierleague.com/'" width = "auto" height = "40px"> &nbsp
+				<img id = "sponsor" title = "Standard Chartered" src = "images/standard.png" alt = "Standard Chartered" onclick = "location.href = 'https://www.sc.com/en/'" width = "auto" height = "40px"> &nbsp
+				<img id = "sponsor" title = "New Balance" src = "images/nb.png" alt = "New Balance" onclick = "location.href = 'http://www.newbalance.com/international'" width = "auto" height = "40px">
+			
+			</div>
+		</div>
+	
+	</body>
+
+</html>
